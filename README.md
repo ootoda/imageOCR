@@ -35,16 +35,16 @@
 
 前準備
 1. Pythonのインストール
-    • Python 3.8以上が必要です 
-    • python.orgからダウンロード・インストール 
-    • インストール時に「Add Python to PATH」にチェック 
+・　Python 3.8以上が必要です 
+・　python.orgからダウンロード・インストール 
+・　インストール時に「Add Python to PATH」にチェック 
 
 各ライブラリの説明：
-    • pillow：画像処理 
-    • easyocr：OCR機能（日本語・英語対応） 
-    • tkinterdnd2：ドラッグ&ドロップ機能 
-    • opencv-python：画像読み込み処理 
-    • numpy：数値計算ライブラリ 
+・　 pillow：画像処理 
+・　 easyocr：OCR機能（日本語・英語対応） 
+・　 tkinterdnd2：ドラッグ&ドロップ機能 
+・　 opencv-python：画像読み込み処理 
+・　 numpy：数値計算ライブラリ 
 
 
 ## 使い方
@@ -66,20 +66,18 @@ pip install easyocr opencv-python pillow numpy tkinterdnd2
 ## 簡単フロー図
 
 ① Pythonインストール
-      ↓
 ② ライブラリをpipでインストール
-      ↓
 ③ imageOCR.pyを実行
-      ↓
 ④ 初期化完了（初回は1～2分待機）
-      ↓
 ⑤ 画像をドラッグ&ドロップまたはファイル選択
-      ↓
 ⑥ OCR処理（数秒待機）
-      ↓
 ⑦ テキスト表示・調整・保存
    これで完全に使用できます！
 
+
+## ダウンロード
+GitHubからダウンロードできます。
+https://github.com/ootoda/imageOCR
 
 
 ## 読み込み可能な画像形式
@@ -110,8 +108,7 @@ MIT License
 
 ## 更新履歴
 
-**2025/11/23 13:10
-**MP4CutFrame.py リリース**
-
+**2025/11/23
+**imageOCR.py リリース**
 
 
